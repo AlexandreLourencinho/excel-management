@@ -47,8 +47,8 @@ const manageArgsNames = function (objectToUse) {
         // Extraire la valeur de l'argument '--prop'
         objectToUse.fileName = args[propertyArgIndex].split('=')[1];
 
-        // Faire quelque chose avec la valeur récupérée
         console.log('La valeur de --source est :', objectToUse.fileName);
+
     } else {
         console.error('L\'argument --property n\'a pas été fourni ou est mal formaté.');
     }
